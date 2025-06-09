@@ -1,0 +1,6 @@
+-- Admin User
+CREATE USER admin_user IDENTIFIED BY adminpass
+DEFAULT TABLESPACE users
+TEMPORARY TABLESPACE temp;
+
+GRANT CONNECT TO admin_user;
