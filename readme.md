@@ -25,12 +25,12 @@ I also set up **cross-schema access** so the Admin user can view reports without
 
 ## 🏢 Departments Simulated
 
-| Dept | Tablespace | User | Profile |
-|------|-----------|-------|---------|
-| HR | `hr_data` | `hr_user` | `department_profile` |
+| Dept    | Tablespace     | User           | Profile                |
+|---------|----------------|----------------|----------------------|
+| HR      | `hr_data`      | `hr_user`      | `department_profile` |
 | Finance | `finance_data` | `finance_user` | `department_profile` |
-| Sales | `sales_data` | `sales_user` | `department_profile` |
-| Admin | `USERS` | `admin_user` | `department_profile` |
+| Sales   | `sales_data`   | `sales_user`   | `department_profile` |
+| Admin   | `USERS`        | `admin_user`   | `department_profile` |
 
 Admin user has **read-only access** to all department dashboards — no `DBA` or `SYSDBA` privileges.
 
@@ -86,14 +86,14 @@ C:\oracle_capstone_project\
 ---
 
 
-| Skill | Description |
-|-------|-------------|
-| Creating department tables | Used realistic schemas for HR, Finance, Sales |
-| Writing dashboard views | Created summary metrics per department |
-| Managing cross-schema access | Used `GRANT SELECT ON view TO admin_user` |
-| Securing access | Avoided giving DBA or SYSDBA |
-| Scripting best practices | Organized SQL files by function |
-| Testing queries manually | Ran dashboard views from SQL*Plus |
+| Skill | Description                                                          |
+|-------|----------------------------------------------------------------------|
+| Creating department tables   | Used realistic schemas for HR, Finance, Sales |
+| Writing dashboard views      | Created summary metrics per department        |
+| Managing cross-schema access | Used `GRANT SELECT ON view TO admin_user`     |
+| Securing access              | Avoided giving DBA or SYSDBA                  |
+| Scripting best practices     | Organized SQL files by function               |
+| Testing queries manually     | Ran dashboard views from SQL*Plus             |
 
 ---
 
