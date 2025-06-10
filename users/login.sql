@@ -1,3 +1,5 @@
+Login codes for each department afer pening sqlplus
+
 CONNECT admin_user/adminpass@CAPSTON
 
 
