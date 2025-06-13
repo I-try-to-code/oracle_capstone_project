@@ -9,6 +9,9 @@ connect sales_user/salespass@CAPSTON
 
 connect hr_user/hrpass@CAPSTON
 
+sqlplus hr_user/hrpass@CAPSTON
+
+
 
 
 
