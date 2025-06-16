@@ -16,3 +16,9 @@ sqlplus hr_user/hrpass@CAPSTON
 
 
 connect finance_user/financepass@CAPSTON
+
+@C:\oracle_capstone_project\alerts\check_tbs_alert.sql
+
+@C:\oracle_capstone_project\alerts\check_tbs.sql
+
+@C:\scripts\login.sql
