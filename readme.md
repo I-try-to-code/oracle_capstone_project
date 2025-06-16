@@ -97,3 +97,14 @@ C:\oracle_capstone_project\
 
 ---
 
+| Feature            | Description                      |
+|--------------------|----------------------------------|
+| Tablespace Checker | Queries datafile usage           |
+| Alert Threshold    | Triggers if <20% free            |
+| Email Alert        | Sent via PowerShell              |
+| Scheduled          | Daily via Windows Task Scheduler |
+
+---
+
+Last Updated: 2025-06-16
+
