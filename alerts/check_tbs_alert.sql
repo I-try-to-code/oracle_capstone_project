@@ -21,7 +21,7 @@ BEGIN
     v_used_mb := r.used_mb;
     v_pct_used := ROUND((v_used_mb / v_total_mb) * 100, 2);
 
-    IF v_pct_used > 90 THEN
+    IF v_pct_used > 60 THEN
       DBMS_OUTPUT.PUT_LINE('CRITICAL: Tablespace ' || r.tablespace_name || ' is at ' || v_pct_used || '% capacity!');
     END IF;
 
