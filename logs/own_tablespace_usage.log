@@ -1,16 +1,14 @@
 
 USER_INFO                                                                                                                                             
 --------------------------------------------------------------------------------------------------------------------------------------                
-User: HR_USER                                                                                                                                         
-    AS usage_report
-    *
-ERROR at line 4:
-ORA-00933: SQL command not properly ended 
+User: SYS                                                                                                                                             
 
+TABLESPACE_NAME         USED_MB                                                                                                                       
+-------------------- ----------                                                                                                                       
+SYSTEM                   874.38                                                                                                                       
+SYSAUX                   251.81                                                                                                                       
+UNDOTBS1                  16.13                                                                                                                       
 
-FROM user_segments a
-*
-ERROR at line 2:
-ORA-00936: missing expression 
-
-
+MESSAGE                                                                                                                                               
+-------------------------------------------------------------                                                                                         
+⚠️ Warning: Consider cleanup or request more space.                                                                                               
