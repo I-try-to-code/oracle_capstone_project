@@ -1,0 +1,54 @@
+Starting RMAN Full Backup at 18-06-2025 12:55:36.66 
+ 
+
+Recovery Manager: Release 19.0.0.0.0 - Production on Wed Jun 18 12:55:36 2025
+Version 19.3.0.0.0
+
+Copyright (c) 1982, 2019, Oracle and/or its affiliates.  All rights reserved.
+
+connected to target database: CAPSTON (DBID=884114342)
+
+RMAN> RUN {
+2>   ALLOCATE CHANNEL c1 TYPE DISK;
+3>   BACKUP DATABASE;
+4>   BACKUP CURRENT CONTROLFILE;
+5>   RELEASE CHANNEL c1;
+6> }
+7> EXIT;
+using target database control file instead of recovery catalog
+allocated channel: c1
+channel c1: SID=147 device type=DISK
+
+Starting backup at 18-JUN-25
+channel c1: starting full datafile backup set
+channel c1: specifying datafile(s) in backup set
+input datafile file number=00001 name=C:\ORACLEXE\ORADATA\CAPSTON\SYSTEM01.DBF
+input datafile file number=00003 name=C:\ORACLEXE\ORADATA\CAPSTON\SYSAUX01.DBF
+input datafile file number=00004 name=C:\ORACLEXE\ORADATA\CAPSTON\UNDOTBS01.DBF
+input datafile file number=00002 name=C:\ORACLEXE\ORADATA\CAPSTON\FINANCE_DATA.DBF
+input datafile file number=00005 name=C:\ORACLEXE\ORADATA\CAPSTON\HR_DATA.DBF
+input datafile file number=00008 name=C:\ORACLEXE\ORADATA\CAPSTON\SALES_DATA.DBF
+input datafile file number=00007 name=C:\ORACLEXE\ORADATA\CAPSTON\USERS01.DBF
+channel c1: starting piece 1 at 18-JUN-25
+channel c1: finished piece 1 at 18-JUN-25
+piece handle=C:\USERS\VINOD\DOWNLOADS\WINDOWS.X64_193000_DB_HOME\DATABASE\063SANEC_1_1 tag=TAG20250618T125540 comment=NONE
+channel c1: backup set complete, elapsed time: 00:00:15
+Finished backup at 18-JUN-25
+
+Starting backup at 18-JUN-25
+channel c1: starting full datafile backup set
+channel c1: specifying datafile(s) in backup set
+including current control file in backup set
+channel c1: starting piece 1 at 18-JUN-25
+channel c1: finished piece 1 at 18-JUN-25
+piece handle=C:\USERS\VINOD\DOWNLOADS\WINDOWS.X64_193000_DB_HOME\DATABASE\073SANES_1_1 tag=TAG20250618T125556 comment=NONE
+channel c1: backup set complete, elapsed time: 00:00:01
+Finished backup at 18-JUN-25
+
+Starting Control File and SPFILE Autobackup at 18-JUN-25
+piece handle=C:\USERS\VINOD\DOWNLOADS\WINDOWS.X64_193000_DB_HOME\DATABASE\C-884114342-20250618-01 comment=NONE
+Finished Control File and SPFILE Autobackup at 18-JUN-25
+
+released channel: c1
+
+Recovery Manager complete.

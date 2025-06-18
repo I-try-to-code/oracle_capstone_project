@@ -22,3 +22,6 @@ connect finance_user/financepass@CAPSTON
 @C:\oracle_capstone_project\alerts\check_tbs.sql
 
 @C:\scripts\login.sql
+
+cd C:\oracle_capstone_project\backups\
+rman_full_backup.bat
