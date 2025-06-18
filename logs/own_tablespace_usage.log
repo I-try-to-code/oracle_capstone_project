@@ -5,10 +5,10 @@ User: SYS
 
 TABLESPACE_NAME         USED_MB                                                                                                                       
 -------------------- ----------                                                                                                                       
-SYSTEM                   874.38                                                                                                                       
-SYSAUX                   251.81                                                                                                                       
-UNDOTBS1                  16.13                                                                                                                       
+SYSTEM                      888                                                                                                                       
+SYSAUX                    295.5                                                                                                                       
+UNDOTBS1                  13.25                                                                                                                       
 
 MESSAGE                                                                                                                                               
--------------------------------------------------------------                                                                                         
-⚠️ Warning: Consider cleanup or request more space.                                                                                               
+-------------------------------------------------                                                                                                     
+ Warning: Consider cleanup or request more space.                                                                                                     
