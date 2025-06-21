@@ -5,8 +5,8 @@ User: SYS
 
 TABLESPACE_NAME         USED_MB                                                                                                                       
 -------------------- ----------                                                                                                                       
-SYSTEM                      888                                                                                                                       
-SYSAUX                    295.5                                                                                                                       
+SYSTEM                   890.19                                                                                                                       
+SYSAUX                   321.31                                                                                                                       
 UNDOTBS1                  13.25                                                                                                                       
 
 MESSAGE                                                                                                                                               

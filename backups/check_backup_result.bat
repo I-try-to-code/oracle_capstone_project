@@ -13,5 +13,5 @@ if %errorlevel% == 0 (
 ) else (
     echo Backup failed >> %STATUS_LOG%
     echo Sending alert...
-    powershell -File C:\Users\Vinod\Document\send_email.ps1
+    powershell -File C:\Users\Vinod\Documents\send_mail.ps1
 )
