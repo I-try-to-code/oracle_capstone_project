@@ -2,7 +2,7 @@
 
 🎯 **My Journey Learning Oracle Database Administration (DBA)**
 
-I'm learning Oracle DBA from scratch using **Oracle 19c XE on Windows**, and I've built a real-world lab environment that simulates a multi-department database system.
+I'm learning Oracle DBA from scratch using **Oracle 19c on Windows**, and I've built a real-world lab environment that simulates a multi-department database system.
 
 This project demonstrates:
 - Installation & configuration
