@@ -55,14 +55,14 @@ I designed and implemented a complete Oracle database environment that includes:
 ## 📁 Project Structure
 
 oracle-dba-lab/
-├── tablespaces/ # TBS creation scripts
-├── users/ # User & profile setup
-├── dashboards/ # Department views
-├── admin/ # Cross-schema access
-├── alerts/ # Space monitoring + email
-├── backups/ # RMAN scripts + validator
-├── logs/ # Output logs
-└── README.md # This file
+├── tablespaces/ 
+├── users/
+├── dashboards/
+├── admin/ 
+├── alerts/ 
+├── backups/ 
+├── logs/
+└── README.md
 
 ## 💼 Skills Demonstrated
 
